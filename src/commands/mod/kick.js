@@ -23,7 +23,7 @@ module.exports = {
         const reason = interaction.options.getString('reason');
         interaction.guild.members.kick(target);
         return interaction.reply({
-            content: `${interaction.user.toString()} has kicked ${target.toString()} for: ${reason}`,
+            content: `${interaction.user.toString()} has kicked ${target.toString()} for reason: **${reason}**`,
             ephemeral: false,
         });
     },
