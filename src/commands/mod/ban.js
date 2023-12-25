@@ -19,7 +19,7 @@ module.exports = {
         .setDefaultMemberPermissions(PermissionFlagsBits.BanMembers),
 
     async execute(client, interaction) {
-        const target = interaction.options.getUser('user');
+        const target = interaction.options.getUser('target');
         const reason = interaction.options.getString('reason');
         interaction.guild.members.ban(target);
         return interaction.reply({
