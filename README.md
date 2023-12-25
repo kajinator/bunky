@@ -1,2 +1,2 @@
 # bunky
- private discord bot
+ the bunkers private discord bot
