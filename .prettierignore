@@ -1,0 +1,8 @@
+# Ignore artifcats
+build
+
+# Ignore files
+**/.git
+**/node_modules
+package-lock.json
+package.json
