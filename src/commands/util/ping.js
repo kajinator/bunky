@@ -8,12 +8,12 @@ module.exports = {
     async execute(client, interaction) {
         const sent = await interaction.reply({
             content: 'Pinging...',
-            fetchReply: true,
+            fetchReply: true
         });
         interaction.editReply(
             `Roundtrip :dizzy: **${
                 sent.createdTimestamp - interaction.createdTimestamp
             }ms.** Bot :ping_pong: **${client.ws.ping}ms.**`
         );
-    },
+    }
 };

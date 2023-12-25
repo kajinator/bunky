@@ -9,5 +9,5 @@ module.exports = {
         await interaction.reply(
             `${interaction.guild.name} currently has: **${interaction.guild.memberCount} members.**`
         );
-    },
+    }
 };

@@ -31,7 +31,7 @@ module.exports = {
                     files: [],
                     components: [],
                     ephemeral: false,
-                    tts: false,
+                    tts: false
                 })
                 .catch((e) => console.log(e));
         } catch (error) {
@@ -42,9 +42,9 @@ module.exports = {
                     files: [],
                     components: [],
                     ephemeral: false,
-                    tts: false,
+                    tts: false
                 })
                 .catch((e) => console.log(e));
         }
-    },
+    }
 };

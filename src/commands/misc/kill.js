@@ -16,7 +16,7 @@ module.exports = {
 
         await interaction.reply({
             content: `${interaction.user.toString()} *kills* ${target.toString()} :knife:`,
-            ephemral: false,
+            ephemral: false
         });
-    },
+    }
 };

@@ -16,7 +16,7 @@ module.exports = {
 
         await interaction.reply({
             content: `${interaction.user.toString()} *bans* ${target.toString()} :hammer:`,
-            ephemral: false,
+            ephemral: false
         });
-    },
+    }
 };

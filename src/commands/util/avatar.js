@@ -3,7 +3,7 @@ const {
     EmbedBuilder,
     ButtonBuilder,
     ButtonStyle,
-    ActionRowBuilder,
+    ActionRowBuilder
 } = require('discord.js');
 
 module.exports = {
@@ -35,7 +35,7 @@ module.exports = {
 
         await interaction.reply({
             embeds: [embed],
-            components: [row],
+            components: [row]
         });
-    },
+    }
 };

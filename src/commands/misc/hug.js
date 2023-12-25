@@ -16,7 +16,7 @@ module.exports = {
 
         await interaction.reply({
             content: `${interaction.user.toString()} *hugs* ${target.toString()} :heart:`,
-            ephemral: false,
+            ephemral: false
         });
-    },
+    }
 };
